@@ -3,6 +3,10 @@
 apt-get update
 apt-get install -y apache2
 
+apt-get dist-upgrade
+
+sudo apt-get install -y mysql-server
+
 sudo apt-get install python-software-properties software-properties-common
 sudo LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 sudo apt-get update
